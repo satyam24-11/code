@@ -31,7 +31,7 @@ void answer()
         if(mp1==mp2) cout<<"YES"<<endl;
         else cout<<"NO"<<endl;
     }
-    else cout<<"NO"<<endl;
+    else cout<<"NO"<<endl; 
 
 }
 
