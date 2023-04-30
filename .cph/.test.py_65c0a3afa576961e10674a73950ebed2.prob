@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"c:\\Users\\Asus\\OneDrive\\Desktop\\code\\test.py","tests":[{"id":1682841632920,"input":"ab\nba","output":"YES"},{"id":1682841658292,"input":"aa\nab","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Asus\\OneDrive\\Desktop\\code\\test.py","group":"local","local":true}
