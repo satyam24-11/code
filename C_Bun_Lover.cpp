@@ -2,16 +2,11 @@
 using namespace std;
 #define int long long
 const int mod = 1000000007;
-void solution()
+void answer()
 {
-    string s;
-    cin >> s;
-    int count_officer = 0;
-    for (int i = 0; i < s.length(); i++)
-    {
-        count_officer=(count_officer*10+(s[i]-'0'))%20;
-    }
-    cout<<count_officer<<endl;
+    int n;
+    cin >> n;
+    cout<<(n*4) + n*(n-2)+2<<endl;
 }
 
 int32_t main()
@@ -23,7 +18,7 @@ int32_t main()
     cin >> t;
     while (t--)
     {
-        solution();
+        answer();
     }
     return 0;
 }

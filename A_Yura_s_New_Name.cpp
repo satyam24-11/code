@@ -4,14 +4,21 @@ using namespace std;
 const int mod = 1000000007;
 void solution()
 {
+    int t, a = 0, b;
     string s;
+
     cin >> s;
-    int count_officer = 0;
-    for (int i = 0; i < s.length(); i++)
+    a = 0;
+    if (s[0] == '_')
+        a = 1;
+    if (s.size() == 1 && s[0] == '^')
+        a = 1;
+    for (int j = 0; j < s.size(); j++)
     {
-        count_officer=(count_officer*10+(s[i]-'0'))%20;
+        if (s[j] == '_' && s[j + 1] != '^')
+            a++;
     }
-    cout<<count_officer<<endl;
+    cout << a << endl;
 }
 
 int32_t main()
