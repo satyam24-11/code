@@ -1,0 +1,1 @@
+{"name":"Local: binary to decimal","url":"c:\\Users\\Asus\\OneDrive\\Desktop\\code\\binary to decimal.cpp","tests":[{"id":1683625779419,"input":"101","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Asus\\OneDrive\\Desktop\\code\\binary to decimal.cpp","group":"local","local":true}

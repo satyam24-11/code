@@ -6,7 +6,12 @@ void answer()
 {
     int n,k;
     cin>>n>>k;
-    cout<<3*n-k<<endl;
+    int ans = 3 * n - k;
+    if(ans<0){
+        cout << 0 << endl;
+        return;
+    }
+    cout << ans << endl;
 }
 
 int32_t main()

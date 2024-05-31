@@ -25,16 +25,19 @@ void answer()
     int count = 0;
     for (int i = 0; i < str1.length(); i++)
     {
-        if (str1[i] != str2[i]) count++;
+        if (str1[i] != str2[i])
+            count++;
     }
-    if(count==2){
-        if(mp1==mp2) cout<<"YES"<<endl;
-        else cout<<"NO"<<endl;
+    if (count == 2)
+    {
+        if (mp1 == mp2)
+            cout << "YES" << endl;
+        else
+            cout << "NO" << endl;
     }
-    else cout<<"NO"<<endl; 
-
+    else
+        cout << "NO" << endl;
 }
-
 int32_t main()
 {
     ios::sync_with_stdio(0);

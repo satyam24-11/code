@@ -1,0 +1,1 @@
+{"name":"Local: practice","url":"c:\\Users\\Asus\\OneDrive\\Desktop\\code\\practice.cpp","tests":[{"id":1697005078918,"input":"6\n5 7 2 4 8 6","output":"2 4 5 6 7 8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Asus\\OneDrive\\Desktop\\code\\practice.cpp","group":"local","local":true}

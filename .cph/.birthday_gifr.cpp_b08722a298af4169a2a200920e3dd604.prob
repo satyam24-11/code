@@ -1,0 +1,1 @@
+{"name":"Local: birthday_gifr","url":"c:\\Users\\Asus\\OneDrive\\Desktop\\code\\birthday_gifr.cpp","tests":[{"id":1683958099414,"input":"3\n0 1 3\n2 10 3\n8 8 0","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Asus\\OneDrive\\Desktop\\code\\birthday_gifr.cpp","group":"local","local":true}

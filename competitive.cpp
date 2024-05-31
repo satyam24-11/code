@@ -21,7 +21,7 @@ void solution(){
         map[s[i]]++;
 	}
 	for(auto pr: map){
-		
+		cout<<pr.f;
 	}
 }
 int main(){

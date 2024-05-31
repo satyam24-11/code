@@ -33,8 +33,8 @@
 #define mod998 998244353
 long long casee = 1;
 #define facebook cout << "Case #" << casee << ": " ;
-#define yes cout<<"YES"<<endl
-#define no cout<<"NO"<<endl
+#define yess cout<<"YES"<<endl
+#define noo cout<<"NO"<<endl
 using namespace std;
  
 // Structures
@@ -619,8 +619,8 @@ void solve(){
  
 int main() {
 	#ifndef ONLINE_JUDGE
-		freopen("input.txt", "r", stdin);
-		freopen("output.txt", "w", stdout);
+		freopen("input1.txt", "r", stdin);
+		freopen("output1.txt", "w", stdout);
 	#endif
 	fast_io;
 	int t; cin>>t;
